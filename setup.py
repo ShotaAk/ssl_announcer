@@ -14,6 +14,7 @@ setup(
     long_description=readme,
     author='Shota Aoki',
     author_email='',
+    install_requires=['numpy', 'protobuf', 'pygame'],
     url='',
     license=license,
     packages=find_packages(exclude=('tests')),
