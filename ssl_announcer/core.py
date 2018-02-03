@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-import listener
-import effector
+from listener import Listener
+from effector import Effector
 
 
 def add_one(value)->int:
     return value + 1
 
 if __name__ == "__main__":
-    my_listener = listener.Listener('224.5.23.1',10003)
-    my_effector = effector.Effector()
+    my_listener = Listener('224.5.23.1',10003)
+    my_effector = Effector()
 
 
     while 1:
