@@ -44,7 +44,7 @@ class Listener(object):
 
         self._sock = Multicast(addr, port)
         self._protobuf = referee_pb2.SSL_Referee()
-        self._ref_statge = None
+        self._ref_stage = None
         self._ref_command = None
 
 

@@ -99,6 +99,8 @@ class Effector(object):
                         referee_command == ref.GOAL_YELLOW:
                     self._sound_commands['CHEER'].play()
 
+                print(referee_command)
+
 
     def play_stage(self, referee_stage):
         if referee_stage != self._referee_stage:
